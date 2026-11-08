@@ -11,7 +11,7 @@ async function healthMetricsCounter(filePath) {
 
         // Count the number of health entries
         return {
-            totalEntries: healthData.length
+            totalEntries: healthData.metrics.length
         };
 
     } catch (error) {
